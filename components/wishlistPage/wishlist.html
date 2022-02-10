@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://aesthetic-ui.netlify.app/CSS/components.css">
+    <link rel="stylesheet" href="/components/wishlistPage/wishlist.css">
+    <title>Wishlist page</title>
+</head>
+
+<body>
+    <main>
+        <section class="drawer__Container drawer__Container--Modal">
+            <div class="drawer__menu modalDrawer1" id="modalDrawer1">
+                <div class="drawer__title">
+                    <h2 class="drawer__heading">Mail</h2>
+                </div>
+
+                <div class="sidebar__item">
+                    <a href="/"><i class="fas fa-inbox"><span class="textDrawer">Inbox</span></i></a>
+                </div>
+                <div class="sidebar__item">
+                    <a href="/"><i class="fas fa-star"><span class="textDrawer">Starred</span></i></a>
+                </div>
+                <div class="sidebar__item">
+                    <a href="/"><i class="fas fa-clock"><span class="textDrawer">Snoozed</span></i></a>
+                </div>
+                <div class="sidebar__item">
+                    <a href="/"><i class="fas fa-paper-plane"><span class="textDrawer">Sent</span></i></a>
+                </div>
+                <div class="sidebar__item">
+                    <a href="/"><i class="fas fa-file"><span class="textDrawer">Drafts</span></i></a>
+                </div>
+                <div class="sidebar__item">
+                    <a href="/"><i class="fas fa-tag"><span class="textDrawer">Important</span></i></a>
+                </div>
+                <div class="sidebar__item">
+                    <a href="/"><i class="fas fa-trash"><span class="textDrawer">Trash</span></i></a>
+                </div>
+                <div class="sidebar__item">
+                    <a href="/"><i class="fas fa-exclamation-triangle"><span class="textDrawer">Spam</span></i></a>
+                </div>
+            </div>
+            <div class="mainBody">
+                <div class="modal__body" id="modalDrawerMainBody">
+                    <div class="body__heading space-between">
+                        <div class="left">
+                            <i class="fas fa-bars fa-2x  hamburgerMenuDismissible" id="hamburgerMenuModal1"></i>
+                            <h3 class="third-heading">Logo</h3>
+                        </div>
+                        <div class="navIcons">
+                            <span><button class="log"><a href="/components/Login/login.html" target="_blank"
+                                        rel="noopener noreferrer">Log In</a></button></span>
+                            <span><a href="/components/wishlistPage/wishlist.html" target="_blank"
+                                    rel="noopener noreferrer"><i class="fas fa-2x fa-heart"></i></a></span>
+                            <span><a href="/components/cartPage/cart.html" target="_blank" rel="noopener noreferrer"><i
+                                        class="fas fa-2x fa-shopping-cart"></i></a></span>
+
+                        </div>
+                    </div>
+
+                    <aside class="filters">
+                        <div class="filter-Clear">
+                            <span class="filter-heading">Filters</span>
+                            <span class="clearAll">Clear</span>
+                        </div>
+                        <div class="filter-Price">
+                            <div class="filter-heading price-label">Price</div>
+                            <input type="range" min="300" max="1000" value="100" class="slider" id="filterRange">
+                        </div>
+                        <div class="filter-Category">
+
+                            <div class="filter-heading">Category</div>
+                            <br>
+                            <input type="checkbox" name="puzzles" id="filterPuzzle">
+                            <label for="filterPuzzle">Puzzles</label>
+                            <br><br>
+                            <input type="checkbox" name="learning" id="filterLearning">
+                            <label for="filterLearning">Learning</label>
+                            <br><br>
+                            <input type="checkbox" name="creative" id="filterCreative">
+                            <label for="filterCreative">Creative</label>
+                        </div>
+
+                        <div class="filter-Rating">
+                            <div class="filter-heading">Rating</div>
+                            <br>
+                            <input type="radio" name="fourPlusRating" id="fourPlusRating">
+                            <label for="fourPlusRating">4 Stars & above</label>
+                            <br><br>
+                            <input type="radio" name="threePlusRating" id="threePlusRating">
+                            <label for="threePlusRating">3 Stars & above</label>
+                            <br><br>
+                            <input type="radio" name="twoPlusRating" id="twoPlusRating">
+                            <label for="twoPlusRating">2 Stars & above</label>
+                            <br><br>
+                            <input type="radio" name="onePlusRating" id="onePlusRating">
+                            <label for="onePlusRating">1 Stars & above</label>
+                        </div>
+                        <div class="filter-SortBy">
+                            <div class="filter-heading">Sort By</div>
+                            <br>
+                            <input type="radio" name="sortLowToHigh" id="sortLowToHigh">
+                            <label for="sortLowToHigh">Price - Low to High</label>
+                            <br><br>
+                            <input type="radio" name="sortHightToLow" id="sortHightToLow">
+                            <label for="sortHightToLow">Price - High to Low</label>
+                        </div>
+                    </aside>
+
+                    <aside class="allProducts">
+
+                        <h class="wishlist-heading">My Wishlist</h>
+                        <div class="myProduct">
+
+                            <div class="card1 vertical-Card">
+                                <img class="wish-icon" src="/assets/images/heart-solid.svg" alt="" srcset="">
+                                <div class="background-Image">
+                                        <img class="card-img1" src="/assets/images/bg7.jpg" alt="photo" />
+                                </div>
+                                <div class="card-title">
+                                        <h2>BlackMole India Map Wooden Puzzle, Statewise Cut, Easy to Hold knobs, Beautiful
+                                                Illustration with Major Attractions. </h2>
+                                </div>
+                                <div class="description1">
+                                        <p class="item-price">₹ 2000</p>
+                                        <div class="star__ratings">
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fas fa-star-half-alt" aria-hidden="true"></i>
+                                                <span class="rating__number">1,322 ratings</span>
+                                        </div>
+                                        <p class="item-ageGroup">Ages: 4 years and up</p>
+                                </div>
+                                <div class="verticalCard-footer">
+                                        <button class="addItem-btn">Add to Cart</button>
+                                </div>
+                            </div>
+
+                            <div class="card1 vertical-Card">
+                                <img class="wish-icon" src="/assets/images/heart-solid.svg" alt="" srcset="">
+                                <div class="background-Image">
+                                        <img class="card-img1" src="/assets/images/bg7.jpg" alt="photo" />
+                                </div>
+                                <div class="card-title">
+                                        <h2>BlackMole India Map Wooden Puzzle, Statewise Cut, Easy to Hold knobs, Beautiful
+                                                Illustration with Major Attractions. </h2>
+                                </div>
+                                <div class="description1">
+                                        <p class="item-price">₹ 2000</p>
+                                        <div class="star__ratings">
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fas fa-star-half-alt" aria-hidden="true"></i>
+                                                <span class="rating__number">1,322 ratings</span>
+                                        </div>
+                                        <p class="item-ageGroup">Ages: 4 years and up</p>
+                                </div>
+                                <div class="verticalCard-footer">
+                                        <button class="addItem-btn">Add to Cart</button>
+                                </div>
+                            </div>
+
+                            <div class="card1 vertical-Card">
+                                <img class="wish-icon" src="/assets/images/heart-solid.svg" alt="" srcset="">
+                                <div class="background-Image">
+                                        <img class="card-img1" src="/assets/images/bg7.jpg" alt="photo" />
+                                </div>
+                                <div class="card-title">
+                                        <h2>BlackMole India Map Wooden Puzzle, Statewise Cut, Easy to Hold knobs, Beautiful
+                                                Illustration with Major Attractions. </h2>
+                                </div>
+                                <div class="description1">
+                                        <p class="item-price">₹ 2000</p>
+                                        <div class="star__ratings">
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fas fa-star-half-alt" aria-hidden="true"></i>
+                                                <span class="rating__number">1,322 ratings</span>
+                                        </div>
+                                        <p class="item-ageGroup">Ages: 4 years and up</p>
+                                </div>
+                                <div class="verticalCard-footer">
+                                        <button class="addItem-btn">Add to Cart</button>
+                                </div>
+                            </div>
+
+                            <div class="card1 vertical-Card">
+                                <img class="wish-icon" src="/assets/images/heart-solid.svg" alt="" srcset="">
+                                <div class="background-Image">
+                                        <img class="card-img1" src="/assets/images/bg7.jpg" alt="photo" />
+                                </div>
+                                <div class="card-title">
+                                        <h2>BlackMole India Map Wooden Puzzle, Statewise Cut, Easy to Hold knobs, Beautiful
+                                                Illustration with Major Attractions. </h2>
+                                </div>
+                                <div class="description1">
+                                        <p class="item-price">₹ 2000</p>
+                                        <div class="star__ratings">
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fas fa-star-half-alt" aria-hidden="true"></i>
+                                                <span class="rating__number">1,322 ratings</span>
+                                        </div>
+                                        <p class="item-ageGroup">Ages: 4 years and up</p>
+                                </div>
+                                <div class="verticalCard-footer">
+                                        <button class="addItem-btn">Add to Cart</button>
+                                </div>
+                            </div>
+
+                            <div class="card1 vertical-Card">
+                                <img class="wish-icon" src="/assets/images/heart-solid.svg" alt="" srcset="">
+                                <div class="background-Image">
+                                        <img class="card-img1" src="/assets/images/bg7.jpg" alt="photo" />
+                                </div>
+                                <div class="card-title">
+                                        <h2>BlackMole India Map Wooden Puzzle, Statewise Cut, Easy to Hold knobs, Beautiful
+                                                Illustration with Major Attractions. </h2>
+                                </div>
+                                <div class="description1">
+                                        <p class="item-price">₹ 2000</p>
+                                        <div class="star__ratings">
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fas fa-star-half-alt" aria-hidden="true"></i>
+                                                <span class="rating__number">1,322 ratings</span>
+                                        </div>
+                                        <p class="item-ageGroup">Ages: 4 years and up</p>
+                                </div>
+                                <div class="verticalCard-footer">
+                                        <button class="addItem-btn">Add to Cart</button>
+                                </div>
+                            </div>
+
+                            <div class="card1 vertical-Card">
+                                <img class="wish-icon" src="/assets/images/heart-solid.svg" alt="" srcset="">
+                                <div class="background-Image">
+                                        <img class="card-img1" src="/assets/images/bg7.jpg" alt="photo" />
+                                </div>
+                                <div class="card-title">
+                                        <h2>BlackMole India Map Wooden Puzzle, Statewise Cut, Easy to Hold knobs, Beautiful
+                                                Illustration with Major Attractions. </h2>
+                                </div>
+                                <div class="description1">
+                                        <p class="item-price">₹ 2000</p>
+                                        <div class="star__ratings">
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fas fa-star-half-alt" aria-hidden="true"></i>
+                                                <span class="rating__number">1,322 ratings</span>
+                                        </div>
+                                        <p class="item-ageGroup">Ages: 4 years and up</p>
+                                </div>
+                                <div class="verticalCard-footer">
+                                        <button class="addItem-btn">Add to Cart</button>
+                                </div>
+                            </div>
+
+                            <div class="card1 vertical-Card">
+                                <img class="wish-icon" src="/assets/images/heart-solid.svg" alt="" srcset="">
+                                <div class="background-Image">
+                                        <img class="card-img1" src="/assets/images/bg7.jpg" alt="photo" />
+                                </div>
+                                <div class="card-title">
+                                        <h2>BlackMole India Map Wooden Puzzle, Statewise Cut, Easy to Hold knobs, Beautiful
+                                                Illustration with Major Attractions. </h2>
+                                </div>
+                                <div class="description1">
+                                        <p class="item-price">₹ 2000</p>
+                                        <div class="star__ratings">
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fas fa-star-half-alt" aria-hidden="true"></i>
+                                                <span class="rating__number">1,322 ratings</span>
+                                        </div>
+                                        <p class="item-ageGroup">Ages: 4 years and up</p>
+                                </div>
+                                <div class="verticalCard-footer">
+                                        <button class="addItem-btn">Add to Cart</button>
+                                </div>
+                            </div>
+
+                            <div class="card1 vertical-Card">
+                                <img class="wish-icon" src="/assets/images/heart-solid.svg" alt="" srcset="">
+                                <div class="background-Image">
+                                        <img class="card-img1" src="/assets/images/bg7.jpg" alt="photo" />
+                                </div>
+                                <div class="card-title">
+                                        <h2>BlackMole India Map Wooden Puzzle, Statewise Cut, Easy to Hold knobs, Beautiful
+                                                Illustration with Major Attractions. </h2>
+                                </div>
+                                <div class="description1">
+                                        <p class="item-price">₹ 2000</p>
+                                        <div class="star__ratings">
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fas fa-star-half-alt" aria-hidden="true"></i>
+                                                <span class="rating__number">1,322 ratings</span>
+                                        </div>
+                                        <p class="item-ageGroup">Ages: 4 years and up</p>
+                                </div>
+                                <div class="verticalCard-footer">
+                                        <button class="addItem-btn">Add to Cart</button>
+                                </div>
+                            </div>
+                            
+
+                        </div>
+                    </aside>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="siteInfo"></section>
+    </footer>
+    <script src="https://kit.fontawesome.com/d53bb09bcf.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
