@@ -1,0 +1,5 @@
+@import url('/components/SignUp/signUp.css');
+
+.forgotPswd {
+    color: var(--darkBlue-color);
+}

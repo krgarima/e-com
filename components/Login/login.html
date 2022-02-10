@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://aesthetic-ui.netlify.app/CSS/components.css">
+    <link rel="stylesheet" href="/components/Login/login.css">
+    <title>Login page</title>
+</head>
+
+<body>
+    <main>
+        <section class="drawer__Container drawer__Container--Modal">
+            <div class="drawer__menu modalDrawer1" id="modalDrawer1">
+                <div class="drawer__title">
+                    <h2 class="drawer__heading">Mail</h2>
+                </div>
+
+                <div class="sidebar__item">
+                    <a href="/"><i class="fas fa-inbox"><span class="textDrawer">Inbox</span></i></a>
+                </div>
+                <div class="sidebar__item">
+                    <a href="/"><i class="fas fa-star"><span class="textDrawer">Starred</span></i></a>
+                </div>
+                <div class="sidebar__item">
+                    <a href="/"><i class="fas fa-clock"><span class="textDrawer">Snoozed</span></i></a>
+                </div>
+                <div class="sidebar__item">
+                    <a href="/"><i class="fas fa-paper-plane"><span class="textDrawer">Sent</span></i></a>
+                </div>
+                <div class="sidebar__item">
+                    <a href="/"><i class="fas fa-file"><span class="textDrawer">Drafts</span></i></a>
+                </div>
+                <div class="sidebar__item">
+                    <a href="/"><i class="fas fa-tag"><span class="textDrawer">Important</span></i></a>
+                </div>
+                <div class="sidebar__item">
+                    <a href="/"><i class="fas fa-trash"><span class="textDrawer">Trash</span></i></a>
+                </div>
+                <div class="sidebar__item">
+                    <a href="/"><i class="fas fa-exclamation-triangle"><span class="textDrawer">Spam</span></i></a>
+                </div>
+            </div>
+            <div class="mainBody">
+                <div class="modal__body" id="modalDrawerMainBody">
+                    <div class="body__heading space-between">
+                        <div class="left">
+                            <i class="fas fa-bars fa-2x  hamburgerMenuDismissible" id="hamburgerMenuModal1"></i>
+                            <h3 class="third-heading">Logo</h3>
+                        </div>
+                        <div class="navIcons">
+                            <span><button class="log"><a href="/components/Login/login.html" target="_blank"
+                                        rel="noopener noreferrer">Log In</a></button></span>
+                            <span><a href="/components/wishlistPage/wishlist.html" target="_blank"
+                                    rel="noopener noreferrer"><i class="fas fa-2x fa-heart"></i></a></span>
+                            <span><a href="/components/cartPage/cart.html" target="_blank" rel="noopener noreferrer"><i
+                                        class="fas fa-2x fa-shopping-cart"></i></a></span>
+
+                        </div>
+                    </div>
+
+                    <div class="SignUp center">
+                        <div class="signUp-Container">
+                            <h1 class="signUp-heading">Login</h1>
+                            <div class="signup-contents">
+                                <label for="userNm" class="userNm">Email address</label>
+                                <input type="text" class="userNm" id="userNm" placeholder="Enter username">
+                                <br>
+                                <label for="userPswd" class="userPswd">Password</label>
+                                <input type="password" class="userPswd" id="userPswd" placeholder="Enter password">
+                                <br>
+                                <label for="userAgreement">
+                                    <input type="checkbox" name="userAgreement" class="userAgreement"
+                                        id="userAgreement">Remember me</label>
+                                <br>
+                                <a href="http://" target="_blank" rel="noopener noreferrer" class="forgotPswd">Forgot
+                                    your password?</a>
+                                <br>
+                                <button class="signup-btns createNewAccount-btn">Login</button>
+                                <br>
+                                <button class="signup-btns toLoginPage-btn">Create New Account></button>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+    </main>
+    <footer>
+        <section class="siteInfo"></section>
+    </footer>
+    <script src="https://kit.fontawesome.com/d53bb09bcf.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
