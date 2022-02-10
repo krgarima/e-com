@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://aesthetic-ui.netlify.app/CSS/components.css">
+    <link rel="stylesheet" href="/components/cartPage/cart.css">
+    <title>Cart page</title>
+</head>
+
+<body>
+    <main>
+        <section class="drawer__Container drawer__Container--Modal">
+            <div class="drawer__menu modalDrawer1" id="modalDrawer1">
+                <div class="drawer__title">
+                    <h2 class="drawer__heading">Mail</h2>
+                </div>
+
+                <div class="sidebar__item">
+                    <a href="/"><i class="fas fa-inbox"><span class="textDrawer">Inbox</span></i></a>
+                </div>
+                <div class="sidebar__item">
+                    <a href="/"><i class="fas fa-star"><span class="textDrawer">Starred</span></i></a>
+                </div>
+                <div class="sidebar__item">
+                    <a href="/"><i class="fas fa-clock"><span class="textDrawer">Snoozed</span></i></a>
+                </div>
+                <div class="sidebar__item">
+                    <a href="/"><i class="fas fa-paper-plane"><span class="textDrawer">Sent</span></i></a>
+                </div>
+                <div class="sidebar__item">
+                    <a href="/"><i class="fas fa-file"><span class="textDrawer">Drafts</span></i></a>
+                </div>
+                <div class="sidebar__item">
+                    <a href="/"><i class="fas fa-tag"><span class="textDrawer">Important</span></i></a>
+                </div>
+                <div class="sidebar__item">
+                    <a href="/"><i class="fas fa-trash"><span class="textDrawer">Trash</span></i></a>
+                </div>
+                <div class="sidebar__item">
+                    <a href="/"><i class="fas fa-exclamation-triangle"><span class="textDrawer">Spam</span></i></a>
+                </div>
+            </div>
+            <div class="mainBody">
+                <div class="modal__body" id="modalDrawerMainBody">
+                    <div class="body__heading space-between">
+                        <div class="left">
+                            <i class="fas fa-bars fa-2x  hamburgerMenuDismissible" id="hamburgerMenuModal1"></i>
+                            <h3 class="third-heading">Logo</h3>
+                        </div>
+                        <div class="navIcons">
+                            <span><button class="log"><a href="/components/Login/login.html" target="_blank" rel="noopener noreferrer">Log In</a></button></span>
+                            <span><a href="/components/wishlistPage/wishlist.html" target="_blank"
+                                rel="noopener noreferrer"><i class="fas fa-2x fa-heart"></i></a></span>
+                            <span><a href="/components/cartPage/cart.html" target="_blank" rel="noopener noreferrer"><i class="fas fa-2x fa-shopping-cart"></i></a></span>
+
+                        </div>
+                    </div>
+
+                    <div class="cart">
+                        <h1 class="cart-Heading"><span>My Cart</span><span>(1)</span></h1>
+                        <div class="cart-Container center wrap">
+                        <div class="card2 horizontal-Card">
+                            <aside class="float-cardLeft">
+                                    <div class="background-Image">
+                                            <img class="card-img2" src="/assets/images/bg5.jpg" alt="photo" />
+                                    </div>
+                            </aside class="float-cardRight">
+                            <aside>
+                                    <div class="card-title2">
+                                            <h2>BlackMole India Map Wooden Puzzle, Statewise Cut, Easy to Hold knobs, Beautiful.
+                                                    Illustration with Major Attractions. </h2>
+                                    </div>
+                                    <div class="description1">
+                                            <p class="item-price">₹ 3500</p>
+                                            <p>
+                                                    <label for="quantity">Quantity:</label>
+                                                    <input class="itemQuantity" type="number" id="quantity" name="quantity" min="1"
+                                                            max="5">
+                                            </p>
+                                    </div>
+                                    <div class="horizontalCard-footer">
+                                            <button class="horizontal-btn removeItem-btn">Remove from Cart</button>
+                                            <button class="horizontal-btn moveItem-btn">Move to Cart</button>
+                                    </div>
+                            </aside>
+                        </div>
+
+                        <div class="card3 text-Card">
+                            <div class="card3-title">
+                                    <h2 class="card-details">Price Details</h2>
+                                    <hr>
+                            </div>
+                            <div class="description3">
+                                    <p class="space"><span>Price:</span><span>₹ 1500</span></p>
+                                    <p class="space"><span>Quantity:</span><span>2</span></p>
+                                    <p class="space"><span>Discount:</span><span>₹ 200</span></p>
+                                    <hr>
+                                    <p class="total-price space"><span>TOTAL AMOUNT</span><span>₹ 2800</span></p>
+                                    <hr>
+                                    <p>You will save ₹ 200 on this order.</p>
+                            </div>
+                            <div class="txtCard-footer">
+                                    <button class="order-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    
+                
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+<section class="siteInfo"></section>
+    </footer>
+    <script src="https://kit.fontawesome.com/d53bb09bcf.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
