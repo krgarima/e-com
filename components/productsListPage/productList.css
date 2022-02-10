@@ -76,6 +76,14 @@
     margin: 1.5rem ;
 }
 
+.addItem-btn {
+    background-color: var(--deepBlue-color);
+}
+
+.addItem-btn:hover {
+    background-color: var(--darkBlue-color);
+}
+
 /********** mobile mode *********/
  
 @media only screen and (max-width: 800px) {
