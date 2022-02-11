@@ -10,7 +10,7 @@
 }
 
 .vertical-Card .wish-icon {
-    background-color: white;
+    background-color: var(--white-color);
 }
 
 /********** mobile mode *********/

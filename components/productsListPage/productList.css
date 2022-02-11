@@ -55,7 +55,7 @@
     width: 82vw;
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(231, 227, 227);
+    background-color: var(--background-color2);
 }
 
 .allProducts-heading {
