@@ -9,6 +9,10 @@
     margin: 2rem auto;
 }
 
+.vertical-Card .wish-icon {
+    background-color: white;
+}
+
 /********** mobile mode *********/
  
 @media only screen and (max-width: 800px) {

@@ -4,8 +4,8 @@
     margin-top: 8.5vh;
     min-height: 81vh;
     width: 98.6vw;
-    background-color: rgb(231, 227, 227);
     font-size: 1.3rem;
+    background-color: rgb(231, 227, 227);
 }
 
 .signUp-heading {
@@ -38,6 +38,11 @@
 
 .userAgreement {
     margin: 0 1rem;
+}
+
+.check {
+    display: flex;
+    align-items: center;
 }
 
 .signup-btns {
