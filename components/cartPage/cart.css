@@ -4,7 +4,7 @@
     margin-top: 8.5vh;
     min-height: 81vh;
     width: 98.8vw;
-    background-color: rgb(231, 227, 227);
+    background-color: var(--background-color2);
 }
 
 .cart-Heading {

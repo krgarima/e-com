@@ -1,17 +1,16 @@
-.drawer__Container {
-    margin: 0;
-    width: 100vw;
-    height: 90vh;
-    border: none;
+:root {
+--background-color2: rgb(231, 227, 227);
 }
 
 .mainBody {
     overflow-x: visible;
 }
 
-.main-content {
-    margin-top: 8.5vh;
-    min-height: 100vh;
+.drawer__Container {
+    margin: 0;
+    width: 100vw;
+    height: 90vh;
+    border: none;
 }
 
 .body__heading {
@@ -21,9 +20,10 @@
     z-index: 10;
 }
 
-.home__page--heading {
-    height: 1vh;
-    border: 4px solid red;
+
+.main-content {
+    margin-top: 8.5vh;
+    min-height: 100vh;
 }
 
 .home__page--img {
@@ -37,7 +37,7 @@
     top: 2.5vh;
     left: 38vw;
     font-weight: 600;
-    -webkit-text-stroke: 1.5px rgb(0, 48, 180);
+    -webkit-text-stroke: 1.5px var(--darkBlue-color);
     font-size: 6vh;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .welcomeMsg h2 {
-    color: white;
+    color: var(--white-color);
 }
 
 .shopNow-btn a {
@@ -82,7 +82,7 @@
 }
 
 .bestSelling {
-    border: 4px solid black;
+    border: 4px solid var(--black-color);
     min-height: 70vh;
     width: 90vw;
     overflow-x: scroll;
@@ -90,30 +90,11 @@
 }
 
 .newReleases {
-    border: 4px solid black;
+    border: 4px solid var(--black-color);
     height: 70vh;
     width: 90vw;
     overflow-x: scroll;
     display: flex;
-}
-
-.siteInfo {
-    height: 10vh;
-    background-color: black;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.siteInfo p {
-    margin: 0.5rem;
-}
-.siteInfo a {
-color: white;
-text-decoration: underline;
-margin: 0.5rem;
 }
 
 strike {
@@ -125,6 +106,25 @@ strike {
     color: green;
     margin-left: 0.8rem;
     font-size: 1.2rem;
+}
+
+.siteInfo {
+    height: 10vh;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.siteInfo p {
+    margin: 0.5rem;
+}
+.siteInfo a {
+color: var(--white-color);
+text-decoration: underline;
+margin: 0.5rem;
 }
 
 
