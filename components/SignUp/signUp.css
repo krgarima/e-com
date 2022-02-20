@@ -40,6 +40,10 @@
     margin: 0 1rem;
 }
 
+.signup-contents label{
+    font-weight: 600;
+}
+
 .check {
     display: flex;
     align-items: center;

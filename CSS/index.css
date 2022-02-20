@@ -86,7 +86,9 @@
     min-height: 70vh;
     width: 90vw;
     overflow-x: scroll;
+    overflow-y: hidden;
     display: flex;
+    border-radius: 10px;
 }
 
 .newReleases {
@@ -94,7 +96,9 @@
     height: 70vh;
     width: 90vw;
     overflow-x: scroll;
+    overflow-y: hidden;
     display: flex;
+    border-radius: 10px;
 }
 
 strike {
@@ -133,4 +137,20 @@ margin: 0.5rem;
         margin: 2vh;
         font-size: 4vh;
     }
+
+    .navIcons {
+        display:contents;
+        display: flex;
+    }
+
+    .company-Info {
+        top: 8vh;
+        left: 19vw;
+    }
+
+    .welcomeMsg {
+        position: absolute;
+        top: 18vh;
+        left: 40vw;
+      }
 }
