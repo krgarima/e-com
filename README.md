@@ -70,5 +70,5 @@ I'm a Advanced Front-end developer. I have working knowledge of HTML, CSS, Javas
 
 ## Preview
 
-Insert gif or link to demo
+
 
